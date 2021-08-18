@@ -12,13 +12,13 @@ $app = htmlspecialchars($_GET['app']);
 
 
 $host = "localhost";
-//$database = "alinsoai_" . $app;
-//$user = "alinsoai_alin";
-//$password = "!pD+9J2v({F]";
+$database = "alinsoai_" . $app;
+$user = "alinsoai_alin";
+$password = "!pD+9J2v({F]";
 
-$database = "samp";
-$user = "root";
-$password = "";
+//$database = "samp";
+//$user = "root";
+//$password = "";
 
 $conn = new mysqli($host, $user, $password, $database);
 
